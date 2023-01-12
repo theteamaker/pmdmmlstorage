@@ -1,7 +1,9 @@
-#Title		Taxi Ghost
+#Title		  Hard Boiled
+#Composer   Shingo Ishihara
 #Arranger   Eva Twin
+#Memo       Very close to accurate, however extensive guesswork was done on channel C (FM#3, drum channel)
 
-#Filename   taxi2.M
+#Filename   hardboiled.M
 #Zenlen	    96
 #Tempo	    90
 #Option     /v/c
@@ -109,7 +111,8 @@
   31 19 14 15  3   0  0 10  4    0
   31 21  0 15 11   0  0  2  1    0
   31 17 17 15  2   0  0  0  7    0
-;
+
+; Leads
 A L @1 _{-eab} v13 M16,1,6,3 *1
 !a1a v13 q0o4l4r4a>c6q0g12r12q0v8g12v13f6&6e6q6d6v8q0d12<v13b=3>c4d6q6e6v8e6r6&12&1
 !a2a v13 q0o4l4r4a>c6q0g12r12q0v8g12v13f6&6e6q6d6v8q0d12<v13b=3q6b6v8q0b12v13>q6c6v8q0c12v13q0e6q6f6v8q0f12q0v13c6&2&4 r6
@@ -139,13 +142,15 @@ A @5 [!a1e]2
 A @6
 A !a1f !a2f !a3f
 
+; Bass
 !b1 o3l2q24f>cgdcg>c<g<f>cgdcg>q0c4<g4c4e4q24d<a=g>dd<a=q0g4b=4>c4d4q24cg>c<gcg>q0c4<g4c4<g4
 !b2 o3l4fga>c<bb>e<baa>e<a>gd<g>d<fga>cfc<faq24g2g2q0>gggg12d12<g12
 !b3 o4l2q16c4&6q0c12q16e4&6q0e12q16c4&6q0c12<b4b=4>q16c4&6q0c12q16e4&6q0e12f4f+4g6<b12b=4
 !b4 o3l4fga>c<ff>c<f>cdegccgcd6d12r6<g12&2>d6d12r6<g12&2>c1c6c12r6&2&12
 B @0 v14 _{-eab} L
 B [!b1]2 !b2 [!b3]2 !b4
-; 
+
+; Drums
 !d1 v15 @8 b4 @7 b6 b12
 !d2 v15 @8 b6 @11 o3 b12 @8 b6 @9 o3 c12
 !d3 v15 @8 b6 @11 o3 b12 @8 b4
@@ -157,4 +162,3 @@ B [!b1]2 !b2 [!b3]2 !b4
 !d9 v15 @8 q0 c6 c12 @7 o3 c6 @12 o3 c12&4 @9 q8 o3 c4
 !d10 v15 @12 o2 q0 g1 @12 g6 g6 r3 @7 b12 @8 b4
 C L [[!d1]15 !d2 [!d1]7 !d3 [!d1]7 !d2]2 [!d4]11 !d5 !d6 [!d1]15 !d7 [!d4]7 !d8 [!d9]2 !d10
-
